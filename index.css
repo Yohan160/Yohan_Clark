@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    background-image: url("img/kkk.jpg");
+    background-image: url("img/fundo2.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -12,15 +12,25 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
     text-align: center;
-    padding: 80px;
+    padding: 30px;
+    font-weight: 1000;
+    padding: 60px;
 }
 
 
 .img_borda{
     border-radius: 50%;
     box-shadow: 0 0 150px;
-    transform: translateX(25vh);
-    margin-top: 100px;
+    margin-left: 100px;
+    margin-top: 1px;
+    display: inline-block;
+    cursor: pointer;
+    transition:0.6s;
+    
+}
+
+.img_borda:hover{
+    transform: scale(1.1)
 }
 
 
@@ -30,7 +40,7 @@ body{
 }
 
 .container{
-    background: darkviolet;
+    background: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,20 +53,21 @@ nav{
     width: 100%;
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 80px;
     height: 70px;
     justify-content: center;
-    background:darkviolet
+    background: black;
 }
 
 a{
     position: relative;
     cursor: pointer;
     color: white;
+    font-weight: 500;
     font-size: 20px;
     padding: 0.5rem 1rem;
     transition: color 0.25s;
-    background:darkviolet;
+    background: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -72,34 +83,40 @@ a::after{
 }
 
 a:hover{
-    color: black;
+    color: gray;
 }
 
 a:hover::after{
     scale: 1 1;
 }
 
-h1{
-    color:ghostwhite;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 50px;
-}
 
 .quadrado_1{
-    height: 400px;
-    width: 600px;
-    background: darkorchid;
-    margin-left: 1000px;
-    transform: translateY(-400px);
-    border-radius: 30px;
+
+    margin-left: 600px;
+    margin-top: -270px;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
+    font-size: 25px;
+    font-weight: 600;
     align-items: center;
+    width: 700px;
+    text-decoration:solid;
 }
 
+h1{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 200px;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+}
 
-
-
-
+.linha{
+    margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
