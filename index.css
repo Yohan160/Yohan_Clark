@@ -137,3 +137,21 @@ i.fab.fa-instagram{
         transform: translateY(0);
 }
 }
+
+.borda{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+.borda_{
+    width: 200px;
+    height: 400px;
+    background: white;
+    border-radius: 50px;
+    margin: 10px;
+    transition: 700ms;
+}
+
+.borda_:hover{
+    width: 500px;
+}
